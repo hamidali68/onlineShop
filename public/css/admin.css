@@ -1,0 +1,98 @@
+.page_sidebar {
+    width: 240px;
+    background-color: #d2043d;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    color: #fbf8ff;
+    text-align: right;
+    font-family: IRANSans;
+}
+body {
+    direction: rtl;
+}
+.container-fluid{
+    padding: 0;
+}
+@font-face {
+    font-family: IRANSans;
+    src: url(../fonts/IRANSans.ttf);
+    font-size: 25px;
+}
+#sidebar_menu{
+    padding: 0px;
+    margin-top: 60px;
+}
+#sidebar_menu li{
+    list-style: none;
+}
+#sidebar_menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-size: 14px;
+    cursor: pointer;
+}
+.child_menu{
+    padding-top: 10px !important;
+    background-color: #d22d5b;
+    display: none;
+}
+.child_menu a{
+    font-size: 13px  !important;
+    padding-top: 5px !important;
+
+}
+#sidebar_menu .fa-angle-left{
+    float: left;
+    font-size: 16px;
+    padding-left: 5px;
+
+}
+#sidebar_menu .active{
+    background: #761b18;
+}
+.page_sidebar .fa-bars{
+    color: white;
+    font-size: 18px;
+    float: left;
+    cursor: pointer;
+    margin: 15px;
+}
+.toggled{
+    width: 50px !important;
+}
+.toggled .sidebar_menu_text{
+    display: none;
+}
+.toggled .fa-angle-left{
+    display: none;
+}
+.toggled .fa-angle-down{
+    display: none;
+}
+.toggled #sidebar_menu li a {
+    text-align: center;
+}
+.toggled .child_menu{
+    margin-right: 50px;
+    width: 230px !important;
+    position: absolute;
+    margin-top: -41px;
+    z-index: 99999;
+    border-right: 1px solid white;
+
+}
+.toggled .child_menu a{
+    text-align: right !important;
+}
+.page_content{
+     text-align: right;
+    font-family: IRANSans;
+    margin-right: 240px;
+}
+
+
+
+
